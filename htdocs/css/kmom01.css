@@ -14,3 +14,35 @@
 .rm-navbar-max {
     display: none;
 }
+
+.region-flash > img{
+    max-width:  100%;
+    margin:     0 auto;
+}
+
+
+.wrap-all {
+    max-width:  920px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.region-main {
+    padding:    10px;
+}
+
+/* FOOTER */
+
+.region-footer {
+    padding:    10px;
+}
+
+.footer-column {
+    width:  33%;
+    float:  left;
+}
+
+.site-footer {
+    text-align:     center; 
+    padding:    10px;
+}
