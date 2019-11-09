@@ -5,6 +5,19 @@
  * to style up the website so it is useable.
  */
 
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    overflow:   auto;
+}
+
+
+
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -15,9 +28,46 @@
     display: none;
 }
 
-.region-flash > img{
+.outer-wrap-flash {
+    padding: 10px;
+}
+
+.region-header {
+    height:     100%;
+    margin: 10px;
+}
+
+.rm-submenu-button {
+    display:    none;
+}
+
+.site-logo {
+    display:    none;
+}
+
+.region-flash > img {
     max-width:  100%;
     margin:     0 auto;
+}
+
+.rm-navbar {
+    background-color:   #ddd;
+    margin-bottom:  10px;
+}
+
+.rm-navbar li {
+    list-style:     none;
+    float:  left;
+    margin-right:   5px;
+    margin-bottom:  5px;
+}
+
+.rm-navbar li a{
+    text-decoration: none;    
+    padding: 10px;
+    background-color:   #333;
+    color: #fff;
+    border-radius:  5px;
 }
 
 
