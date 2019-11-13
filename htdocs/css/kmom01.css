@@ -7,6 +7,8 @@
 
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -17,6 +19,16 @@ html {
 
 
 
+.wrap-all {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.row::after {
+    overflow: auto;
+    clear: both;
+}
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
@@ -28,14 +40,37 @@ html {
     display: none;
 }
 
+
+.outer-wrap {
+    width: 100%;
+}
+
+.inner-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* HEADER */
+
+
+.region-header-col-1 {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 60%;    
+}
+
+
 .outer-wrap-flash {
     padding: 10px;
 }
 
-.region-header {
-    height:     100%;
-    margin: 10px;
-}
 
 .rm-submenu-button {
     display:    none;
@@ -50,19 +85,18 @@ html {
     margin:     0 auto;
 }
 
-.rm-navbar {
-    background-color:   #ddd;
-    margin-bottom:  10px;
+
+.my-navbar{
+    list-style-type: none;
+    padding-top: 10px;
 }
 
-.rm-navbar li {
-    list-style:     none;
-    float:  left;
-    margin-right:   5px;
-    margin-bottom:  5px;
+.my-navbar li {
+    display: inline;
+    padding: 2px;
 }
 
-.rm-navbar li a{
+.my-navbar li a{
     text-decoration: none;    
     padding: 10px;
     background-color:   #333;
@@ -71,25 +105,29 @@ html {
 }
 
 
-.wrap-all {
-    max-width:  920px;
-    margin: 0 auto;
-    background-color: #f0f0f0;
+/* MAIN */
+
+.inner-wrap-main {
+    padding: 25px 0;
 }
 
-.region-main {
-    padding:    10px;
-}
+
 
 /* FOOTER */
 
+.outer-wrap-footer {
+    background-color: #333;
+    color: #fff;
+}
+
 .region-footer {
-    padding:    10px;
+    padding: 20px 10px;
 }
 
 .footer-column {
     width:  33%;
     float:  left;
+    padding: 10px;
 }
 
 .site-footer {
