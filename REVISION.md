@@ -2,7 +2,7 @@ Revision history
 ================
 
 
-v1.0.2 (2019-11-09)
+v1.0.2 (2019-11-13)
 -------------------
 
 * Added report page content.
