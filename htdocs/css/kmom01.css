@@ -18,6 +18,10 @@ html {
 }
 
 
+p {
+    margin: 2px;
+    padding: 2px;
+}
 
 .wrap-all {
     max-width: 1200px;

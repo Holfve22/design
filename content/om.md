@@ -21,8 +21,7 @@ Om
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+Kursen Teknisk webbdesign och användbarhet, a.k.a. design handlar om att läsa sig designa hemsidor utifrån både utsende och användbarhet.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/design.png?w=300 caption="Design"]

@@ -1,6 +1,14 @@
 Revision history
 ================
 
+
+v1.0.2 (2019-11-09)
+-------------------
+
+* Added report page content.
+* CSS edits from videos.
+
+
 v1.0.1 (2019-11-09)
 -------------------
 

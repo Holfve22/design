@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](https://github.com/Holfve22/design).
+Jag har inte använt GitHub sedan tidigare så detta är mitt första riktiga försök att skapa ett repo. Du kan följa min resa [här](https://github.com/Holfve22/design).
