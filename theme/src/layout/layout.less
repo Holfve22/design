@@ -1,0 +1,141 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+.clearfix() {
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+/* General layout */
+.wrap-all {
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.outer-wrap {
+    width: 100%;
+}
+
+.inner-wrap {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.site-logo {
+    display:    none;
+}
+
+
+
+/* HEADER */
+.outer-wrap-header {
+    width: 100%;
+    background-color: #333;
+    .clearfix();
+}
+
+.outer-wrap-header a{
+    color: #fff;
+}
+
+.inner-wrap-header {
+
+}
+
+.region-header-col-1 {
+    float: left;
+    width: 15%;
+}
+
+.region-header-col-2 { 
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+.region-header-col-3 {
+    float: left;
+    width: 15%;
+}
+
+
+/* SIDEBAR */
+.inner-wrap-main {
+    .clearfix();
+}
+
+
+.region-main {
+    width: 90%;
+    margin: 0 auto;
+    float: left;
+    .clearfix();
+
+    &.has-sidebar {
+        width: 70%;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }    
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+    float: left;
+
+}
+
+
+/* FOOTER */
+.footer-column {
+    width:  33%;
+    float:  left;
+    padding: 10px;
+}
+
+.footer-column-x {
+    text-align: center;
+}
+
+.outer-wrap-footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.region-footer {
+    padding: 20px 10px;
+}
+
+.site-footer {
+    text-align:     center; 
+    padding:    10px;
+}
+
+.region-footer a {
+    color: lightblue;
+    list-style: none;
+    text-decoration: none;
+}
