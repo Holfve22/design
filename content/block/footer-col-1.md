@@ -1,3 +1,2 @@
-#### Footer col 1
-
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+  
+*"You don’t have to be great to start, but you have to start to be great."*

@@ -1,6 +1,12 @@
 Revision history
 ================
 
+v2.0.0 (2019-11-20)
+-------------------
+
+* Added code from kmom02 video series
+* Added basic styling
+
 
 v1.0.2 (2019-11-13)
 -------------------
