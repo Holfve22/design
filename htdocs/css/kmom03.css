@@ -5018,6 +5018,20 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-22px.png");
 }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
 /**
  * Import the vertical grid.
  */
@@ -5329,9 +5343,10 @@ html {
   background-color: #fff;
 }
 body {
-  font: 16px/1.375 Verdana, Geneva, sans-serif;
+  font: 16px/1.375 'Open Sans', sans-serif;
   color: #333;
   background-color: #fff;
+  line-height: 1.4;
 }
 img {
   max-width: 100%;
@@ -5342,7 +5357,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 22px;
   margin-bottom: 22px;
 }
