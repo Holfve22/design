@@ -2,6 +2,8 @@
  * Style for responsive menu
  */
 
+ @fontFamilyHeadings: inherit;
+
 // General
 //@navbarAccentColor:         #9FB129;
 @navbarItemBgColor:         inherit; //#444;
@@ -56,7 +58,7 @@
  * Outer wrapper for menu
  */
 .rm-navbar {
-
+    font-family: @fontFamilyHeadings;
     position: relative;
 
     // Clear the style for ul
@@ -64,6 +66,7 @@
         list-style: none;
         margin: 0;
         padding: 0;
+        text-align: center;
     }
 }
 

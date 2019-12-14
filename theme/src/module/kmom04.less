@@ -6,6 +6,19 @@
 
 /* OTHER */
 
+@linkColorAll: lightblue;
+@footerFontColor: #333;
+@codeBackgroundColor: #eee;
+
+code {
+    background-color: @codeBackgroundColor;
+}
+
+a {
+    text-decoration: none;
+    color: @linkColorAll;
+}
+
 .block {
     margin-bottom: @magicNumber * 0.5; 
 }
@@ -43,10 +56,9 @@
     list-style: none;
 }
 
-
-.breadcrumb-list li a{
-    text-decoration: none;
-    color: blue;
+//only set color
+.region-footer {
+    color: @footerFontColor;
 }
 
 

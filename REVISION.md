@@ -1,6 +1,12 @@
 Revision history
 ================
 
+v4.0.0 (2019-12-14)
+-------------------
+* Added "Rapport" page and study results
+* Added three new themes
+* Added report page for kmom04
+
 v3.0.1 (2019-12-08)
 -------------------
 * Added report page for kmom03
