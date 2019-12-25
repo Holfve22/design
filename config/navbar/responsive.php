@@ -45,6 +45,25 @@ return [
             ],
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Raporter.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport kmom04",
+                    ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport kmom05",
+                    ],                    
+                ],
+            ],
+        ],          
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",

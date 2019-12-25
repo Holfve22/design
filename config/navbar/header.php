@@ -52,11 +52,23 @@ return [
                     [
                         "text" => "Färgschema",
                         "url" => "rapport/fargschema",
-                        "title" => "Redovisning för kmom01.",
+                        "title" => "Rapport kmom04",
                     ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport kmom05",
+                    ],                    
                 ],
             ],
-        ],        
+        ], 
+
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Bloggen",
+        ],
+
         [
             "text" => "Om",
             "url" => "om",

@@ -1,6 +1,11 @@
 Revision history
 ================
 
+v5.0.0 (2019-12-25)
+-------------------
+* Added the blog
+* Addeed report page for kmom05
+
 v4.0.0 (2019-12-14)
 -------------------
 * Added "Rapport" page and study results

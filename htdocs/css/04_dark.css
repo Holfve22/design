@@ -4753,14 +4753,12 @@ template {
  * Outer wrapper for menu
  */
 .rm-navbar {
-  font-family: 'Inconsolata', sans-serif;
   position: relative;
 }
 .rm-navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 /**
  * Avoid scrolling mobile devices
@@ -4809,10 +4807,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-default li {
   display: inline-block;
 }
-.rm-default li:hover {
-  color: #fff;
-  background-color: #939393;
-}
 .rm-default li li {
   display: block;
   min-width: 10em;
@@ -4856,10 +4850,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-color: inherit;
 }
 .rm-desktop li a:hover {
-  color: #fff;
-  background-color: #939393;
-}
-.rm-desktop li:hover {
   color: #fff;
   background-color: #939393;
 }
@@ -5213,6 +5203,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   content: "";
   display: block;
   clear: both;
+}
+.region-breadcrumb {
+  margin-bottom: 11px;
 }
 .footer-column {
   display: inline;
@@ -5698,7 +5691,7 @@ hr::after {
   color: #111;
 }
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
 */
 /* OTHER */
 code {
@@ -5707,6 +5700,13 @@ code {
 a {
   text-decoration: none;
   color: lightblue;
+}
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Inconsolata', sans-serif;
 }
 .block {
   margin-bottom: 11px;

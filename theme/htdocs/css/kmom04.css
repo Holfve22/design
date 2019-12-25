@@ -4753,14 +4753,12 @@ template {
  * Outer wrapper for menu
  */
 .rm-navbar {
-  font-family: 'Roboto', sans-serif;
   position: relative;
 }
 .rm-navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 /**
  * Avoid scrolling mobile devices
@@ -4809,10 +4807,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-default li {
   display: inline-block;
 }
-.rm-default li:hover {
-  color: #fff;
-  background-color: #939393;
-}
 .rm-default li li {
   display: block;
   min-width: 10em;
@@ -4842,7 +4836,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: #333;
+  background-color: inherit;
 }
 .rm-desktop li {
   position: relative;
@@ -4856,10 +4850,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-color: inherit;
 }
 .rm-desktop li a:hover {
-  color: #fff;
-  background-color: #939393;
-}
-.rm-desktop li:hover {
   color: #fff;
   background-color: #939393;
 }
