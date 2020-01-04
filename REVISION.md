@@ -1,6 +1,12 @@
 Revision history
 ================
 
+v6.0.0 (2019-12-25)
+-------------------
+* Added report pages for kmom06
+* Added theme for kmom06
+
+
 v5.0.0 (2019-12-25)
 -------------------
 * Added the blog
