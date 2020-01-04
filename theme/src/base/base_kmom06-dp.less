@@ -1,0 +1,59 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+//@fontFamilyBody: serif;
+@footerFontColor: transparent;
+
+
+* {
+    // margin: 0;
+    // padding: 0;
+    box-sizing: border-box;
+}
+
+
+.article {
+    .clearfix();  
+}
+
+
+html {
+    background-color: @bgColorHtml;
+}
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);    
+    color: @colorBody;
+    background-color: @bgColorBody;
+    line-height: 1.4;
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+.wrap-all {
+    background-image: url("../image/new_years_right.JPG?f=brightness,-75"); //?f=colorize,0,0,80,0&f=brightness,-150
+    background-attachment: fixed;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: black;
+    overflow-y: scroll;    
+}
+
+img {
+    max-width: 100%;
+}
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+// li {
+//     list-style: none;
+//     margin: 5px auto;
+// }
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

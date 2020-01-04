@@ -1,0 +1,106 @@
+
+
+/* OTHER */
+
+@linkColorAll: lightblue;
+@footerFontColor: #333;
+@codeBackgroundColor: #eee;
+@footerFontColor: transparent;
+
+code {
+    background-color: @codeBackgroundColor;
+}
+
+a {
+    text-decoration: none;
+    color: @linkColorAll;
+}
+
+
+
+
+
+//THEME SPECIFIC
+.outer-wrap-footer {
+    border-top: 1px solid @footerFontColor;
+}
+
+
+//This code is also found in desinax/resposive-menu/less/respoonsive-menu.less
+.rm-navbar {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: @fontFamilyHeadings;
+    }
+}
+
+
+
+.block {
+    margin-bottom: @magicNumber * 0.5; 
+}
+
+.block.toc {
+    #desinax-vgrid.grid(@columns -4);
+    box-shadow: 0 3px 15px rgba(255,255,255,.2);
+    margin: @magicNumber * 0.5; 
+    padding: @magicNumber * 0.5;
+}
+
+.block.toc li {
+    list-style: none;
+    margin-bottom: @magicNumber / 6; 
+}
+
+
+
+/* Activate desinax figures */
+figure.figure {
+    #desinax-figure.figure();
+}
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+/* PREVIOUS AND NEXT */
+
+.next-previous {
+    #desinax-vgrid.column(@columns); 
+    .clearfix();
+}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.breadcrumb-list li {
+    float: left;
+    list-style: none;
+}
+
+//only set color
+.region-footer {
+    color: @footerFontColor;
+}
+
+
+.breadcrumb-list li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">";
+}

@@ -1,0 +1,141 @@
+/*!
+* kmom06 Principer.
+*
+* Design Prinsiper.
+*/
+
+
+/**
+* Import mixins
+*/
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+
+
+
+/**
+* Normalize and reset the style.
+*/
+@import "normalize.css/normalize.less";
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+@magicNumber:  22px;  // 22-24px
+@fontSizeBody: 16px;
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap');
+
+// font-families
+@fontFamilyHeadings: 'Raleway', sans-serif;
+@fontFamilyBody:     'Merriweather', sans-serif;
+@fontFamilyCode:     "monospace";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid_layout.less";
+
+// Default grid, change to fit your requirements.
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+
+
+
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+/*
+*   IMPORT THE designax figure  
+*/ 
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import "base/base.less";
+@import "base/base_kmom06-dp.less";
+
+
+
+@bgColorBody:   #fff; 
+@bgColorHtml:   #0c0c0c; // should be same as footer
+@colorBody:     #D4AF37;
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+
+// Import minor adjustments
+// Set linkcolors and such
+@import "module/kmom06-designprinciper.less";
+
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+@navbarBackgroundColor:     #D4AF37;
+@footerBackgroundColor:     #0c0c0c;
+@footerFontColor:           #D4AF37;
+@footerLinkColor:           #3489eb;
+@linkColorAll:              #3489eb;
+@codeBackgroundColor:       #4d4b4b;
+
+
+//@navbarItemBgColor: #ddd;
+@navbarItemColor:           #333;
+@navbarItemHoverColor:      #fff;
+@navbarItemHoverBgColor:    #939393;
+@submenuBgColor:            #D4AF37;
+@navbarMenuButtonColor:     #333;
+@maxButtonColor:            #333;
