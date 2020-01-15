@@ -5344,7 +5344,7 @@ body {
   line-height: 1.4;
 }
 .wrap-all {
-  background-image: url(../image/hockey.JPG?width=1600);
+  background-image: url(../image/hockey.jpg?width=1600);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -5746,7 +5746,7 @@ hr::after {
 }
 /* OTHER */
 code {
-  background-color: #4d4b4b;
+  background-color: #f1f1f1;
 }
 a {
   text-decoration: none;
